@@ -11,9 +11,9 @@ This project is a basic HTTP server built using Python's `socket` library. It li
 - **Graceful Error Handling:** Requests other than `GET` are handled with a `405 Method Not Allowed` response.
 
 ## Project Structure
-├── index.html # The default HTML page served at the root path 
-├── server.py # Python script containing the server implementation 
-└── README.md # Project documentation
+├── index.html # The default HTML page served at the root path.
+├── server.py # Python script containing the server implementation.
+└── README.md # Project documentation.
 
 ## How to Run
 
@@ -23,7 +23,7 @@ This project is a basic HTTP server built using Python's `socket` library. It li
 4. Run the server using the following command:
    ```bash
    python server.py
-5. The server will start listening on 0.0.0.0:8080. You can access it via a browser by going to http://localhost:8080. Alternativly you can access it on other local network devices by going to http://hostmachineip:8080
+5. The server will start listening on 0.0.0.0:8080. You can access it via a browser by going to http://localhost:8080. Alternativly you can access it on other local network devices by going to http:// 'host machine ip' :8080
 
 ## Paths
 - /: Serves the index.html file.
