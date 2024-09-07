@@ -12,7 +12,9 @@ This project is a basic HTTP server built using Python's `socket` library. It li
 
 ## Project Structure
 ├── index.html # The default HTML page served at the root path.
+
 ├── server.py # Python script containing the server implementation.
+
 └── README.md # Project documentation.
 
 ## How to Run
